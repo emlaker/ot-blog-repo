@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <h2 class="post-title">Another Adventure</h2>
       <p class="post-date">${new Date().toLocaleDateString()}</p>
       <p class="post-content">
-        And so the journey continues... with more posts to come!
+        And so the spiritualjourney continues... with more posts to come!
       </p>
     `;
 
