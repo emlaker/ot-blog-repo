@@ -8,15 +8,15 @@
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #121212;  /* Dark background */
+  color: #e0e0e0;             /* Light text */
   padding: 0 1rem;
 }
 
 /* Header */
 header {
-  background: #333;
-  color: #fff;
+  background: #1f1f1f;
+  color: #f5f5f5;
   padding: 1rem;
 }
 
@@ -31,8 +31,12 @@ nav ul {
 }
 
 nav a {
-  color: #fff;
+  color: #f5f5f5;
   text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* Main layout */
@@ -45,34 +49,34 @@ main {
 
 /* Posts */
 .post {
-  background: #fff;
+  background: #1e1e1e;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.7);
 }
 
 .post-title {
   margin-bottom: 0.5rem;
-  color: #222;
+  color: #ffffff;
 }
 
 .post-date {
   font-size: 0.9rem;
-  color: #666;
+  color: #aaaaaa;
   margin-bottom: 1rem;
 }
 
 /* Sidebar */
 aside {
-  background: #fff;
+  background: #1e1e1e;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.7);
 }
 
 /* Footer */
 footer {
   text-align: center;
   margin: 2rem 0;
-  color: #777;
+  color: #aaaaaa;
 }
